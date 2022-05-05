@@ -30,7 +30,7 @@ module "dev" {
   source = "./modules/aft-account-request"
   control_tower_parameters = {
     AccountEmail              = "prakash.naguboina+d1@gmail.com"
-    AccountName               = "dev-aft"
+    AccountName               = "dev"
     ManagedOrganizationalUnit = "Dev"
     SSOUserEmail              = "prakash.naguboina@gmail.com"
     SSOUserFirstName          = "dev"
